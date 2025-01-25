@@ -1,0 +1,26 @@
+HOW TO RUN DARKTALE
+
+To run the DarkTale game on your computer, follow these steps:
+
+1. Install Python
+   - Ensure that Python (version 3.6 or higher) is installed on your system.
+
+2. Install the Required Libraries
+   - Open your terminal or command prompt.
+   - Install the required library by running the following command:
+     
+     pip install keyboard
+     
+   - This library is needed to capture keyboard inputs for the game.
+
+3. Ensure Support for ASCII Characters
+   - The game uses ASCII characters for displaying text and graphics. If you encounter issues with character display (such as weird symbols or broken text), ensure your terminal or command prompt supports UTF-8 encoding. Or just use the VS Code
+   - On most systems, this should work by default. If not, try changing the font in your terminal settings to one that supports these characters (e.g., Consolas or Courier New).
+
+4. Run the Game
+   - Once the dependencies are installed, navigate to the folder where your game files are located.
+   - In your terminal or command prompt, run the game by executing:
+
+     python game.py
+
+   Replace `game.py` with the actual filename of your main Python script.
